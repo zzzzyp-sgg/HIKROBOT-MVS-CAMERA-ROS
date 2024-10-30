@@ -242,7 +242,7 @@ namespace camera
         {
             printf("MV_CC_SetPixelFormat fail! nRet [%x]\n", nRet);
         }
-        MVCC_ENUMVALUE t = {0};
+        MVCC_ENUMVALUE t;
         //********** frame **********/
 
         nRet = MV_CC_GetEnumValue(handle, "PixelFormat", &t);
